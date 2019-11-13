@@ -430,14 +430,20 @@
 	.main .flash .bd .col2{
 		height: 340px;
 	}
-	.main .flash .bd .col2 .product-item{
+	.bd .col2 .product-item{
 		width: 234px;
-		height: 340px;
 		float: left;
 		margin-left: 14px;
 		background: #fff;
 		position: relative;
 		text-align: center;
+	}
+	.bd .col2 .product-item-m{
+		height: 340px;
+	}
+	.bd .col2 .product-item-t{
+		height: 300px;
+		margin-bottom: 14px;
 	}
 	.main .flash .bd .col2 .product-item.flag:after{
 		content: '1元';
@@ -451,7 +457,8 @@
 		left: 50%;
 		margin-left: -32px;
 	}
-	.main .flash .bd .col2 .product-item:nth-child(1){
+	.bd .col2 .product-item:nth-child(1),
+	.bd .col2 .product-item:nth-child(5){
 		margin-left: 0px;
 	}
 	.main .flash .bd .col2 .product-item .mask{
