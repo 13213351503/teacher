@@ -603,12 +603,16 @@
 	.footer{
 		width: 100%;
 		height: 522px;
-		/*background: yellow;*/
+		/*background: #fafafa;*/
 	}
 	.footer .ft-top{
 		width: 100%;	
 		height: 272px;
 		background: #fff;
+		margin-bottom: 30px;
+	}
+	.footer .ft-bottom{
+		background: #fafafa;
 	}
 	.footer .ft-top .service{
 		border-bottom: 1px solid #e0e0e0;
@@ -627,7 +631,7 @@
 		border-right: 1px solid #e0e0e0;
 		padding-right: 50px;	
 	}
-	.footer .ft-top .ft-t-t .service-item a:last-of-type(5){
+	.footer .ft-top .ft-t-t .service-item:last-child a{
 		border: none;	
 	}
 	.footer .ft-top .ft-t-b{
@@ -638,6 +642,9 @@
 		float: left;
 		margin-right: 103px;
 	}
+/*	.footer .ft-top .ft-t-b dl:nth-child(6){
+		margin-right: 0px;
+	}*/
 	.footer .ft-top .ft-t-b dt{
 		margin-bottom: 31px;
 		font-size: 14px;
@@ -649,7 +656,84 @@
 		color: #758698;
 	}
 	.footer .ft-top .about-text{
-		float: right;
+		float: left;
 		border-left: 1px solid #e0e0e0;
+		margin-left: -19px;
+		width: 290px;
+	}
+	.footer .ft-top .about-text div:nth-child(1){
+		font-size: 16px;
+		color: #ff6700;
+		margin-bottom: 12px;
+	}
+	.footer .ft-top .about-text div:nth-child(2){
+		font-size: 11px;
+		color: #616161;
+		margin-bottom: 7px;
+	}
+	.footer .ft-top .about-text div:nth-child(3){
+		font-size: 11px;
+		color: #616161;
+		margin-bottom: 20px;
+	}
+	.footer .ft-top .about-text div:nth-child(4){
+		border: 1px solid #ff6700;
+		width: 120px;
+		height: 30px;
+		font-size: 11px;
+		color: #ff6700;
+		line-height: 28px;
+		box-sizing: border-box;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.footer .ft-top .about-text div:nth-child(4):hover{
+		background: #ff6700;
+		color: #fff;
+		cursor: pointer;
+		transition: all 0.4s;	
+	}
+	.footer .ft-top .about-text div i{
+		margin-right: 3px;
+	}
+	.footer .ft-bottom{
+		background: #fafafa;
+	}
+	.footer .ft-bottom .ft-bottom-img{
+		width: 56px;
+		height: 57px;
+		float: left;
+	}
+	.footer .ft-bottom .ft-bottom-img img{
+		width: 100%;
+		height: 100%;
+	}
+	.footer .ft-bottom .ft-list{
+		height: 106.4px;
+		overflow: hidden;
+	}
+	.footer .ft-bottom .ft-nav .ft-nav-item{
+		float: left;
+	}
+	.footer .ft-bottom .ft-nav .ft-nav-item a{
+		font-size: 11px;
+		color: #757575;
+	}
+	.footer .ft-bottom .ft-nav .ft-nav-item .shuxian{
+		color: #babacc;	
+		font-size: 13px;
+		margin-left: 3px;
+		margin-right: 3px;
+	}
+	.footer .ft-bottom .ft-nav{
+		margin-left: 10px;
+	}
+	.footer .ft-bottom .ft-text{
+		overflow: hidden;
+		margin-left: 10px;
+	}
+	.footer .ft-bottom .ft-dd{
+		height: 28px;
+		padding-left: 67px;
 	}
 /*底部区域结束
